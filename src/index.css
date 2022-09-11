@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #508ED1 #36393B;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #36393B;
+}
+
+::-webkit-scrollbar-thumb {
+  /* border-radius: 10px; */
+  background-color: #508ED1;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
